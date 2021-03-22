@@ -1,7 +1,7 @@
-package com.tmy.rqdemo.repository;
+package com.tmy.rqDemo.repository;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.tmy.rqdemo.entity.User;
+import com.tmy.rqDemo.entity.User;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
 

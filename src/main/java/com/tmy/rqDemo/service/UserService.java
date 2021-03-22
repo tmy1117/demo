@@ -1,6 +1,6 @@
-package com.tmy.rqdemo.service;
+package com.tmy.rqDemo.service;
 
-import com.tmy.rqdemo.entity.User;
+import com.tmy.rqDemo.entity.User;
 import org.springframework.stereotype.Service;
 
 /**

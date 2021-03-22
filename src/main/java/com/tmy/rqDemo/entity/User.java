@@ -1,11 +1,8 @@
-package com.tmy.rqdemo.entity;
+package com.tmy.rqDemo.entity;
 
-import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.format.annotation.DateTimeFormat;
-
 import java.sql.Date;
 
 /**
