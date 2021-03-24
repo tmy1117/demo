@@ -1,4 +1,4 @@
-package com.tmy.rqDemo.test;
+package com.tmy.rqDemo.testRabbitMq;
 
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
