@@ -13,12 +13,6 @@ import java.util.List;
 @SpringBootTest
 class RqDemoApplicationTests {
 
-    @Resource
-    private UserRepository userRepository;
-    @Test
-    void testuser(){
-        List<User> users = userRepository.selectList(null);
-        System.out.println(JSON.toJSON(users));
-    }
+
 
 }

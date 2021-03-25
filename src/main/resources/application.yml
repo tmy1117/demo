@@ -1,4 +1,19 @@
 spring:
+  application:
+    name: mq-rabbitmq-producer
+  rabbitmq:
+    host: 47.103.200.57
+    username: admin
+    password: 123456
+    template:
+      retry:
+        enabled: true
+        initial-interval: 10000ms
+        max-interval: 30000ms
+        multiplier: 2
+      exchange: topic.exchange
+    publisher-confirms: true
+    port: 5672
   datasource:
     username: root
     password: 123456
